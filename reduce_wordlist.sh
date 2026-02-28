@@ -3,14 +3,14 @@
 # Usage:
 #   ./sort_wordlist.sh input_huge_wordlist.txt
 
-if [ "$#" -ne 1 ]; then
-  echo "Usage: $0 <input_wordlist.txt>"
+if [ "$#" -lt 1 ]; then
+  echo "Usage: $0 <input_wordlist.txt> [output_prefix]"
   exit 1
 fi
 
 INPUT="$1"
 # Base name for the output files
-PREFIX="wordlist"
+PREFIX="${2:-wordlist}"
 
 # Force UTF-8 locale for character-aware counting (Umlaut safe!)
 export LC_ALL=en_US.UTF-8

@@ -8,13 +8,24 @@
 
 The lists consist of verbs, nouns and adjectives. I generated a bunch of lists with constraints like maximum number of characters or exact number of characters per word. The generating bash script is included, more lists could be distilled. See the below list for number of words in each list.
 
-`41345 wordlist.txt`
-`23177 wordlist_max_8_char.txt`
-`16586 wordlist_max_6_char.txt`
-` 2383 wordlist_max_4_char.txt`
-`  430 wordlist_max_3_char.txt`
+```
+41345 wordlist.txt
+23177 wordlist_max_8_char.txt
+16586 wordlist_max_6_char.txt
+ 2383 wordlist_max_4_char.txt
+  430 wordlist_max_3_char.txt
+ 3632 wordlist_exact_8_char.txt
+ 9228 wordlist_exact_6_char.txt
+ 1953 wordlist_exact_4_char.txt
+  403 wordlist_exact_3_char.txt
 
-` 3632 wordlist_exact_8_char.txt`
-` 9228 wordlist_exact_6_char.txt`
-` 1953 wordlist_exact_4_char.txt`
-`  403 wordlist_exact_3_char.txt`
+41345 wordlist_noumlaut.txt
+22923 wordlist_noumlaut_max_8_char.txt
+15527 wordlist_noumlaut_max_6_char.txt
+ 2278 wordlist_noumlaut_max_4_char.txt
+  405 wordlist_noumlaut_max_3_char.txt
+ 3630 wordlist_noumlaut_exact_8_char.txt
+ 8548 wordlist_noumlaut_exact_6_char.txt
+ 1873 wordlist_noumlaut_exact_4_char.txt
+  381 wordlist_noumlaut_exact_3_char.txt
+```
